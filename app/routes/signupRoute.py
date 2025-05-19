@@ -19,3 +19,4 @@ def signup(user_data: UserSignupSchema, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(new_user)
     return {"message": "user created successfully"}
+

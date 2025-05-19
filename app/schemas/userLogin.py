@@ -1,6 +1,6 @@
 from pydantic import BaseModel
-from app.schemas.userSignup import UserSignup
+from app.schemas.userSignup import UserSignupSchema
 
 
-class userLogin(UserSignup):
+class userLoginSchema(UserSignupSchema):
     pass
